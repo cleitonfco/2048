@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
+  background: #EFFAF0;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -199,7 +199,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #5A7A50;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -388,35 +388,34 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
-    border-radius: 3px;
+    border-radius: 4px;
     background: #eee4da;
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    background: transparent url("../img/flags.png") 0 0 no-repeat; }
   .tile.tile-2 .tile-inner {
-    /*background: transparent url("../img/ball.png") center center no-repeat; }*/
-    background: transparent url("../img/flag-cro.png") center center no-repeat; }
+    background-position: 0 0; }
   .tile.tile-4 .tile-inner {
-    background: transparent url("../img/flag-mex.png") center center no-repeat; }
+    background-position: -115px 0; }
   .tile.tile-8 .tile-inner {
-    background: transparent url("../img/flag-cam.png") center center no-repeat; }
+    background-position: -230px 0; }
   .tile.tile-16 .tile-inner {
-    background: transparent url("../img/flag-esp.png") center center no-repeat; }
+    background-position: -345px 0; }
   .tile.tile-32 .tile-inner {
-    background: transparent url("../img/flag-fra.png") center center no-repeat; }
+    background-position: -460px 0; }
   .tile.tile-64 .tile-inner {
-    background: transparent url("../img/flag-eng.png") center center no-repeat; }
+    background-position: -575px 0; }
   .tile.tile-128 .tile-inner {
-    background: transparent url("../img/flag-arg.png") center center no-repeat; }
+    background-position: -690px 0; }
   .tile.tile-256 .tile-inner {
-    background: transparent url("../img/flag-uru.png") center center no-repeat; }
+    background-position: -805px 0; }
   .tile.tile-512 .tile-inner {
-    background: transparent url("../img/flag-ale.png") center center no-repeat; }
+    background-position: -920px 0; }
   .tile.tile-1024 .tile-inner {
-    background: transparent url("../img/flag-ita.png") center center no-repeat; }
+    background-position: -1035px 0; }
   .tile.tile-2048 .tile-inner {
-    background: transparent url("../img/flag-bra.png") center center no-repeat; }
+    background-position: -1150px 0; }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
